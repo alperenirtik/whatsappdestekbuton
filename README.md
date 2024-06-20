@@ -1,19 +1,20 @@
-# whatsappdestekbuton
-Bu proje, kullanıcıların web sitelerinde kullanabilecekleri şık ve mobil uyumlu, ücretsiz modern bir WhatsApp sohbet widget'ıdır. HTML5 ile geliştirilmiş proje, otomatik olarak açılır kapanır menüsü, canlı destek görünümü, animasyonları ve özelleştirilebilir yapısı ile kullanıcıların WhatsApp API'si üzerinden kolayca iletişim kurmalarını sağlar.
+# Whatsapp Destek Butonu
+
+Bu proje, kullanıcıların web sitelerinde kullanabilecekleri şık ve mobil uyumlu, ücretsiz modern bir WhatsApp sohbet widget'ıdır. HTML5 ile geliştirilmiş projede otomatik olarak açılıp kapanan menüsü, canlı destek görünümü, animasyonları ve özelleştirilebilir yapısı ile kullanıcıların WhatsApp API'si üzerinden kolayca iletişim kurmaları sağlanır.
 
 ## Özellikler
-- **Whatsapp API İletişim**: wa.me yada api.whatsapp.com/send/{messages} api'sini kullanarak kullanıcıya otomatik olarak mesaj göndermenizi sağlar.
-- **Mesaj Gönderme**: Kullanıcılar doğrudan widget üzerinden API aracılığıyla mesaj yazabilir ve gönderebilir. Mesaj gönderilecek telefon numarası "scripts.js" üzerinden ayarlaanbilir.
-- **Responsive Tasarım**: Widget, tüm cihazlarda mükemmel bir şekilde çalışacak ve mobil uyumlu şekilde geliştirilmiştir
-- **Modern Tasarım**: Widget şık ve modern bir şekilde tasarlanmıştır. Tasarımında gölgelendirme ve hover kullanılmıştır.
-- **Animasyonlu Açılış ve Kapanış**: Widget, açılıp kapanırken yumuşak geçiş animasyonlarına sahiptir.
-- **Otomatik Açılış**: Kullanıcı'nın web sitesine ilk girişinde otomatik olarak 10 saniye içerisinde açılacaktır. "scripts.js" dosyası üzerinden animasyon süresi değiştirilebilir.
-- **Saat ve Dakika Gösterimi**: Hoşgeldin mesajının yanında saat ve dakika bilgisi anlık görüntülenir.
-- **Hoşgeldin Mesajı**: Kullanıcılara bir karşılama mesajı gösterilir. "index.html" dosyası üzerinden karşılama mesajı değiştirilebilir.
-- **Buton Yazısı**: Whatsapp butonunun yazısı "index.html" dosyası üzerinden özelleştirilebilir.
-- **Aktiflik Durum Bilgisi**: Temsilcinin aktiflik durumu gösterilir. "index.html" dosyası üzerinden aktiflik durumu mesajı değiştirilebilir.
-- **Klavye Kısayolu**: Kullanıcı Masaüstünde "Enter" tuşuna basarakta mesaj gönderebilir.
-- **Kolay Özelleştirme**: Widget'ın renkleri, boyutları "styles.css"  ve diğer stil özellikleri kolayca özelleştirilebilir.
+- **WhatsApp API İletişimi**: Kullanıcıların `wa.me` veya `api.whatsapp.com/send/{mesajlar}` API'sini kullanarak otomatik olarak mesaj göndermelerini sağlar.
+- **Mesaj Gönderme**: Kullanıcılar doğrudan widget üzerinden API aracılığıyla mesaj yazabilir ve gönderebilir. Mesaj gönderilecek telefon numarası `scripts.js` dosyasında ayarlanabilir.
+- **Responsive Tasarım**: Widget, tüm cihazlarda mükemmel bir şekilde çalışacak şekilde geliştirilmiştir ve mobil uyumlu tasarıma sahiptir.
+- **Modern Tasarım**: Widget şık ve modern bir görünüme sahiptir; gölgelendirme ve hover efektleri kullanılmıştır.
+- **Animasyonlu Açılış ve Kapanış**: Widget, açılırken ve kapanırken yumuşak geçiş animasyonlarına sahiptir.
+- **Otomatik Açılış**: Kullanıcının web sitesine ilk girişinde otomatik olarak 10 saniye içinde açılacaktır. Animasyon süresi `scripts.js` dosyasında değiştirilebilir.
+- **Saat ve Dakika Gösterimi**: Hoşgeldin mesajının yanında anlık saat ve dakika bilgisi görüntülenir.
+- **Hoşgeldin Mesajı**: Kullanıcılara bir karşılama mesajı gösterilir. Mesaj `index.html` dosyasında değiştirilebilir.
+- **Buton Yazısı**: WhatsApp butonunun metni `index.html` dosyasında özelleştirilebilir.
+- **Aktiflik Durum Bilgisi**: Temsilcinin aktiflik durumu gösterilir. Durum mesajı `index.html` dosyasında değiştirilebilir.
+- **Klavye Kısayolu**: Kullanıcı masaüstünde `Enter` tuşuna basarak mesaj gönderebilir.
+- **Kolay Özelleştirme**: Widget'ın renkleri, boyutları ve diğer stil özellikleri `styles.css` dosyasında kolayca özelleştirilebilir.
 
 ## Kurulum
 
@@ -33,16 +34,16 @@ Bu proje, kullanıcıların web sitelerinde kullanabilecekleri şık ve mobil uy
 ## Kullanım
 
 - `index.html` dosyasını tarayıcınızda açarak widget'ı test edebilirsiniz.
-- Widget'ın görünürlüğünü kontrol eden butona tıklayarak WhatsApp sohbet penceresini açıp kapatabilirsiniz.
-- Mesaj yazıp gönder düğmesine tıklayarak veya Enter tuşuna basarak mesaj gönderebilirsiniz.
-- Eğer mesaj giriş kutusuna yazılan mesaj boş ise, kullanıcı doğrudan belirlenen telefon numarasına yönlendirilir.
+- WhatsApp sohbet penceresini açıp kapatmak için widget'ın görünürlüğünü kontrol eden butona tıklayabilirsiniz.
+- Mesaj yazıp göndermek için gönder düğmesine tıklayın veya `Enter` tuşuna basın.
+- Eğer mesaj giriş kutusuna bir şey yazılmazsa, kullanıcı doğrudan belirtilen telefon numarasına yönlendirilir.
 
 ## Mesaj Gönderme Özelliği
 
 Widget üzerinden mesaj gönderme işlemi şu şekilde çalışır:
 
-- Kullanıcı mesaj giriş kutusuna bir mesaj yazar ve gönder butonuna tıklar veya Enter tuşuna basar.
-- Eğer mesaj boş ise, kullanıcı doğrudan WhatsApp numarasına yönlendirilir:
+- Kullanıcı mesaj giriş kutusuna bir mesaj yazar ve gönder butonuna tıklar veya `Enter` tuşuna basar.
+- Eğer mesaj boşsa, kullanıcı doğrudan WhatsApp numarasına yönlendirilir:
     ```javascript
     var whatsappCall = 'https://wa.me/' + phoneNumber;
     window.open(whatsappCall, '_blank');
@@ -55,14 +56,8 @@ Widget üzerinden mesaj gönderme işlemi şu şekilde çalışır:
 
 ## Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 
 ## Geliştirici
 
-Bu proje, Alperen İrtik tarafından geliştirilmiş ve herkesin kullanımına sunulmuştur. Her türlü geri bildirim ve katkı için lütfen iletişime geçin.
-
----
-
-**MIT License**
-
-
+Bu proje Alperen İrtik tarafından geliştirilmiş ve herkesin kullanımına sunulmuştur. Her türlü geri bildirim ve katkı için lütfen iletişime geçiniz.
