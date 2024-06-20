@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat</title>
+    <!-- Harici stil dosyası ve FontAwesome simge seti yükleniyor -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Sohbet kapsayıcı div -->
+    <div class="chat-container" id="chat-container">
+        <!-- Sohbet başlığı -->
+        <div class="chat-header">
+            <!-- Profil resmi -->
+            <img src="support.png" alt="Profile Picture" class="profile-pic">
+            <!-- Kullanıcı bilgileri -->
+            <div class="user-info">
+                <span class="user-name">Ad Soyad</span>
+                <span class="user-status">Çevrimiçi</span>
+            </div>
+            <!-- Kapatma butonu -->
+            <i class="fa fa-times close-button" id="close-button"></i>
+        </div>
+        <!-- Sohbet gövdesi -->
+        <div class="chat-body">
+            <div class="message received">
+                <span class="message-text">
+                    Merhabalar 👋<br>
+                    Nasıl yardımcı olabiliriz? 
+                    <span class="message-time"></span>
+                </span> 
+            </div>
+        </div>
+        <!-- Sohbet alt kısmı -->
+        <div class="chat-footer">
+            <input type="text" id="messageInput" placeholder="Mesaj Yazınız..." class="message-input">
+            <button class="send-button" onclick="sendMessage()">
+                <i class="fa fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <!-- WhatsApp destek butonu -->
+    <div class="whatsapp-support">
+        <button class="support-button" id="support-button">
+            <i class="fa fa-whatsapp whatsapp-icon"></i> Whatsapp Destek
+        </button>
+    </div>
+    <!-- Harici JavaScript dosyası yükleniyor -->
+    <script src="scripts.js"></script>
+</body>
+</html>
