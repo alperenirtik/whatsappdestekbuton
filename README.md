@@ -1,8 +1,5 @@
 <img src="https://raw.githubusercontent.com/alperenirtik/whatsappdestekbuton/main/res/masaustu-gorunum.PNG" alt="Masaüstü Görünümü">
 
-<img src="https://raw.githubusercontent.com/alperenirtik/whatsappdestekbuton/main/res/mobil-gorunum.PNG" alt="Mobil Görünümü">
-
-
 # Whatsapp Destek Butonu
 
 Bu proje, kullanıcıların web sitelerinde kullanabilecekleri şık ve mobil uyumlu, ücretsiz modern bir WhatsApp sohbet widget'ıdır. HTML5 ile geliştirilmiş projede otomatik olarak açılıp kapanan menüsü, canlı destek görünümü, animasyonları ve özelleştirilebilir yapısı ile kullanıcıların WhatsApp API'si üzerinden kolayca iletişim kurmaları sağlanır.
