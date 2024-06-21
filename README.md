@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/alperenirtik/whatsappdestekbuton/main/res/masaustu-gorunum.PNG" alt="Masaüstü Görünümü">
+<img src="https://github.com/alperenirtik/whatsappdestekbuton/blob/main/mobil-masaustu-gorunum.png?raw=true" alt="Ücretsiz HTML Whatsapp Destek Widget">
 
 # Whatsapp Destek Butonu
 
